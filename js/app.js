@@ -60,8 +60,8 @@ if(Number9 > 100){
 }
 
 
-/*Pętle*/
-/*While*/
+/*PETLE*/
+/*WHILE*/
 console.log("While");
 var i = 0;
 
@@ -75,3 +75,66 @@ console.log("For:");
 for(var j=0; j<10; j=j+1){
   console.log("Watrosc j - " +j);
 }
+
+/*for(var i=0; i<10; i=i+1){
+  for(var j=0; j<10; j=j+1){
+    console.log("Wartosc i = " + i + " wartosc j = " + j);
+  }
+}*/
+
+/*var line = "";
+for(var i=0; i<10; i=i+1){
+  line = "Line nr" + i;
+  for(var j=0; j<5; j=j+1){
+    line = line + " | " + j;
+  }
+  console.log(line);
+}*/
+
+var line = "";
+for(var i=0; i<10; i=i+1){
+  line = "Line nr" + i;
+  for(var j=0; j<i; j=j+1){
+    line = line + " | " + j;
+  }
+  console.log(line);
+}
+
+/*FUNKCJE*/
+/*function drawRectangle(rectangleSize){
+  //var size = 5;
+  var line = "";
+  for(var i= 0; i < size; i= i+1){
+    for(var j= 0; j < size; j= j + 1)
+      line= line + "*";
+  }
+  console.log(line);
+}
+
+console.log("Draw rectangle 1");
+drawRectangle(4);
+console.log("Draw rectangle 2");
+drawRectangle(8);
+console.log("Draw rectangle 3");
+drawRectangle(7);*/
+
+
+function maxOf3(number1, number2, number3){
+    if(number1>number2){
+      if(number1>number3){
+        // console.log(number1);
+        return number1;
+      }else{
+        // console.log(number3);
+        return number3;
+      }else{
+        if(number2 > number3){
+          console.log(number2);
+        }else{
+          console.log(number3);
+        }
+      }
+    }
+}
+
+maxOf3(3,5,7)
