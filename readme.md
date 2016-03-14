@@ -1,4 +1,4 @@
-# PHP - Wstęp do programowania - Ćwiczenia
+# JS - Wstęp do programowania - Ćwiczenia
 
 ## Jak rozwiązywać zadania?
 
