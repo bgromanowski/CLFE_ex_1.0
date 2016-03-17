@@ -11,9 +11,9 @@ if(num1 > num2){
     console.log("num3 jest najwieksze");
   }
 }else{
-  if(num2 > num3)(
+  if(num2 > num3){
     console.log("num2 jest najwieksze");
-  )else{
+  }else{
     console.log("num3 jest najwieksze");
   }
 }
