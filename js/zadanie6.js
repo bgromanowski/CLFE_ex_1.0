@@ -23,3 +23,27 @@ while(j <= m){
   }
   j = j + 1;
   }
+
+/*
+var n = 20;
+
+console.log("***Pętla WHILE***");
+var i = 0;
+while (i <= n) {
+  if (i % 2 === 0) {
+    console.log(i + " - parzysta");
+  } else {
+    console.log(i + " - nieparzysta")
+  };
+  i++;
+};
+
+console.log("***Pętla FOR***");
+for (var j = 0; j <= n; j++){
+  if (j % 2 === 0) {
+    console.log(j + " - parzysta");
+  } else {
+    console.log(j + " - nieparzysta");
+  };
+};
+*/
