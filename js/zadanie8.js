@@ -1,5 +1,5 @@
 console.log("zadanie8")
-
+/*
 var n = 8;
 var line = "";
 console.log("petle zalezne");
@@ -21,3 +21,4 @@ for(var i=0; i<n; i = i+1){
   }
   console.log(line);
 }
+*/

@@ -27,6 +27,7 @@ while (i <= n) {
 };
 
 console.log("***Pętla FOR***");
+var line2 = "";
 for (var a = 1; a <= n; a++) {
   line2 = "";
   for (var b = 1; b <= n; b++) {
