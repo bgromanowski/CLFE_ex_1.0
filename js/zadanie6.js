@@ -1,5 +1,5 @@
 console.log("zadanie6")
-
+/*
 var  n = 20;
 for(var i = 0; i <= n; i = i + 1){
   console.log("Wartosc i = " + i);
@@ -23,14 +23,16 @@ while(j <= m){
   }
   j = j + 1;
   }
+*/
 
-/*
 var n = 20;
 
 console.log("***Pętla WHILE***");
 var i = 0;
 while (i <= n) {
-  if (i % 2 === 0) {
+  if (i === 0){
+    console.log(i " ")
+  } else if (i % 2 === 0) {
     console.log(i + " - parzysta");
   } else {
     console.log(i + " - nieparzysta")
@@ -46,4 +48,3 @@ for (var j = 0; j <= n; j++){
     console.log(j + " - nieparzysta");
   };
 };
-*/
